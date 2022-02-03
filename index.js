@@ -6,6 +6,11 @@ var App = {
       message: "Hello from JavaScript!",
       name: "Dani"
     };
+  },
+  methods: {
+    changeMessage: function () {
+      this.message = "Whoa, this is cool";
+    }
   }
 };
 
