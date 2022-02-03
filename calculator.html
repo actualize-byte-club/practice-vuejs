@@ -9,11 +9,10 @@
   <body>
     <div id="app">
       {{ message }}
-      <div>1st number: <input type="number" v-model="number1" /></div>
-      <div>2nd number: <input type="number" v-model="number2" /></div>
-      <div>3rd number: <input type="number" v-model="number3" /></div>
-      <div><button v-on:click="sumNums()">Compute sum</button></div>
-      <p>The sum is: {{ sum }}</p>
+      <div>1st number: <input type="text" v-model="number1" /></div>
+      <div>2nd number: <input type="text" v-model="number2" /></div>
+      <div>3rd number: <input type="text" v-model="number3" /></div>
+      <p>The sum is: {{ sumNums() }}</p>
     </div>
   </body>
 </html>
