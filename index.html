@@ -11,7 +11,8 @@
     <div id="app">
       <h2>{{ message }}</h2>
       <p>{{ name }}</p>
-      <button v-on:click="changeMessage()">Click Me!</button>
+      <button v-on:click="changeMessage()">Click Me!</button><br />
+      <input type="text" v-model="name" />
     </div>
   </body>
 </html>
