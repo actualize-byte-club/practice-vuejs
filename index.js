@@ -6,7 +6,8 @@ var App = {
       message: "Hello from JavaScript!",
       name: "Dani",
       fruits: ["apple", "banana", "cantaloupe", "grapes", "figs"],
-      newFruit: ""
+      newFruit: "",
+      showInfo: false
     };
   },
   methods: {

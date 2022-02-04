@@ -18,6 +18,10 @@
       </div>
       <input type="text" v-model="newFruit" />
       <button v-on:click="addNewFruit()">Add Fruit</button>
+      <div>
+        <button v-on:click="showInfo = !showInfo">Toggle</button>
+        <p v-if="showInfo">Extra Information</p>
+      </div>
     </div>
   </body>
 </html>
